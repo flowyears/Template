@@ -105,10 +105,10 @@
 				7D9030AC1EFA579A0016BD96 /* AppDelegate.m */,
 				7D9030AE1EFA579A0016BD96 /* ViewController.h */,
 				7D9030AF1EFA579A0016BD96 /* ViewController.m */,
-				7D9030B11EFA579B0016BD96 /* Main.storyboard */,
-				7D9030B41EFA579B0016BD96 /* Assets.xcassets */,
-				7D9030B61EFA579B0016BD96 /* LaunchScreen.storyboard */,
-				7D9030B91EFA579B0016BD96 /* Info.plist */,
+				7D9030DE1EFA60D80016BD96 /* Class */,
+				7D9030DD1EFA60D20016BD96 /* Vender(第三方) */,
+				7D9030DC1EFA60C10016BD96 /* Extend(扩展) */,
+				7D9030DB1EFA60BA0016BD96 /* Resource */,
 				7D9030A81EFA579A0016BD96 /* Supporting Files */,
 			);
 			path = Template;
@@ -117,6 +117,10 @@
 		7D9030A81EFA579A0016BD96 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D9030B11EFA579B0016BD96 /* Main.storyboard */,
+				7D9030B41EFA579B0016BD96 /* Assets.xcassets */,
+				7D9030B61EFA579B0016BD96 /* LaunchScreen.storyboard */,
+				7D9030B91EFA579B0016BD96 /* Info.plist */,
 				7D9030A91EFA579A0016BD96 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +142,74 @@
 				7D9030CF1EFA579B0016BD96 /* Info.plist */,
 			);
 			path = TemplateUITests;
+			sourceTree = "<group>";
+		};
+		7D9030DB1EFA60BA0016BD96 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7D9030DC1EFA60C10016BD96 /* Extend(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+				7D9030DF1EFA61590016BD96 /* Category(分类) */,
+				7D9030E01EFA61590016BD96 /* DataBase(数据库) */,
+				7D9030E11EFA61590016BD96 /* Macros(宏) */,
+				7D9030E21EFA61590016BD96 /* Network(网络) */,
+				7D9030E31EFA61590016BD96 /* Tools(工具类) */,
+			);
+			path = "Extend(扩展)";
+			sourceTree = "<group>";
+		};
+		7D9030DD1EFA60D20016BD96 /* Vender(第三方) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Vender(第三方)";
+			sourceTree = "<group>";
+		};
+		7D9030DE1EFA60D80016BD96 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		7D9030DF1EFA61590016BD96 /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Category(分类)";
+			sourceTree = "<group>";
+		};
+		7D9030E01EFA61590016BD96 /* DataBase(数据库) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "DataBase(数据库)";
+			sourceTree = "<group>";
+		};
+		7D9030E11EFA61590016BD96 /* Macros(宏) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Macros(宏)";
+			sourceTree = "<group>";
+		};
+		7D9030E21EFA61590016BD96 /* Network(网络) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Network(网络)";
+			sourceTree = "<group>";
+		};
+		7D9030E31EFA61590016BD96 /* Tools(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tools(工具类)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +279,7 @@
 				TargetAttributes = {
 					7D9030A41EFA57920016BD96 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					7D9030BD1EFA579B0016BD96 = {
 						CreatedOnToolsVersion = 8.0;
@@ -422,6 +494,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Template/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = flowyears.com.Template;
@@ -433,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Template/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = flowyears.com.Template;
